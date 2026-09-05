@@ -1,10 +1,9 @@
 package Session_4_ArrayBasics.class_problems;
 import java.util.Scanner;
 import java.util.Arrays;
+public class RotateArra {
 
-public class RotateArray {
-
-    static int[] rotateArray(int[] nums, int k) {
+    static int[] rotateArra(int[] nums, int k) {
 
         k = k % nums.length;
 
@@ -38,7 +37,7 @@ public class RotateArray {
         System.out.print("Enter k: ");
         int k = sc.nextInt();
 
-        int[] result = rotateArray(nums, k);
+        int[] result = rotateArra(nums, k);
 
         System.out.println("Rotated Array: "
                 + Arrays.toString(result));
